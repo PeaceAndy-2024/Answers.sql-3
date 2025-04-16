@@ -1,0 +1,24 @@
+CREATE table_student
+INSERT INTO table_student("id","full name","age")
+VALUES ("1","Peace Ifiok Sunday","21");
+
+INSERT INTO table_student("id","full name ","age")
+VALUES ("2","Unwana Ifiok Sunday","19");
+
+INSERT INTO table_student("id","full name","age")
+VALUES ("3","Grace Ifiok Sunday","13");
+
+INSERT INTO table_student("id","full name ","age")
+VALUES ("4", "Honour Ifiok Sunday","9");
+
+INSERT INTO table_student("id","full name","age")
+VALUES ("5","Abasifreke Ifiok Sunday","3");
+
+UPDATE table_student
+SET
+id =2 
+age=20
+WHERE 
+id=2 
+age=19;
+
